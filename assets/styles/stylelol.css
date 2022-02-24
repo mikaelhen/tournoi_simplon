@@ -4,18 +4,20 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #1B3549;
-  overflow: hidden;
+    background-color: #1B3549;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 20px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .copyright {
@@ -28,3 +30,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    margin-right: 600px;
+    margin-left: 20px;
+ }
