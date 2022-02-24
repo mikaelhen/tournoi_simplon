@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tournoi Simplon</title>
     <link rel="stylesheet" href="assets/styles/stylerl.css">
+    <script src="./assets/js/scriptform.js" defer></script>
 </head>
 <body>
     <?php include("assets/includes/navbar.php") ?>

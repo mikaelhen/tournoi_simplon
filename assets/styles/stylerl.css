@@ -1,0 +1,51 @@
+@font-face {
+  font-family: robotoR;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: robotoR;
+}
+.card {
+  background-color: rgb(243, 243, 243);
+  margin: 0 auto;
+  max-width: 300px;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.card > button {
+  margin-top: 5px;
+  padding: 0.25rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.25em;
+  gap: 0.25rem;
+}
+
+.form-group > label {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333;
+}
+.form-group > input {
+  border: 1px solid #333;
+  border-radius: 0.25em;
+  padding: 0.25em;
+  font-size: 1rem;
+}
+.step-title {
+  margin-bottom: 0.7rem;
+}
+.sendButton {
+  justify-self: flex-end;
+}
