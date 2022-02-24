@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
 
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <?php include("assets/includes/titre_accueil.php") ?>
     <?php include("assets/includes/caroussel.php") ?>
     <?php include("assets/includes/footer.php") ?>
 </body>

@@ -1,6 +1,6 @@
 <div id="slider">
-    <a href="#" class="control_next">></a>
-    <a href="#" class="control_prev"><</a>
+    <a href="#jeux" class="control_next">></a>
+    <a href="#jeux" class="control_prev"><</a>
 
     <ul>
         <li><a href="rocketleague.php"><img src="assets/img/RLr.jpg" alt=""></a></li>

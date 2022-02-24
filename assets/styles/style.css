@@ -1,6 +1,32 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* Titre Accueil */
+
+.titrea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 250%;
+}
+
+#jeux {
+    margin-bottom: 50px;
+    height: 1px;
 }
 
 /* Caroussel */
@@ -8,7 +34,7 @@
 #slider {
     position: relative;
     overflow: hidden;
-    margin: 20px auto 0 auto;
+    margin: 100px auto 0 auto;
     border-radius: 4px;
   }
   
