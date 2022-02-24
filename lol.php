@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="assets/styles/stylelol.css">
 </head>
 <body>
-    <?php include("assets/inculdes/navbar.php") ?>
-    <?php include("assets/inculdes/formulaire.php") ?>
-    <?php include("assets/inculdes/listeparticipant.php") ?>
-    <?php include("assets/inculdes/footer.php") ?>
+    <?php include("assets/includes/navbar.php") ?>
+    <?php include("assets/includes/formulaire.php") ?>
+    <?php include("assets/includes/listeparticipant.php") ?>
+    <?php include("assets/includes/footer.php") ?>
 </body>
 </html>
