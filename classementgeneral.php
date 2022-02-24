@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+lu<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <?php include("assets/inculdes/navbar.php") ?>
-    <?php include("assets/inculdes/classement.php") ?>
-    <?php include("assets/inculdes/footer.php") ?>
+    <?php include("assets/includes/navbar.php") ?>
+    <?php include("assets/includes/classement.php") ?>
+    <?php include("assets/includes/footer.php") ?>
 </body>
 </html>
