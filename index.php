@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
+  
+</header>
     <?php include("assets/includes/navbar.php") ?>
     <?php include("assets/includes/caroussel.php") ?>
     <?php include("assets/includes/footer.php") ?>
+
+
 </body>
 </html>
