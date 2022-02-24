@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +9,7 @@
     <title>Tournoi Simplon</title>
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
+
 <body>
     <?php include("assets/includes/navbar.php") ?>
     <?php include("assets/includes/caroussel.php") ?>
