@@ -22,12 +22,12 @@ button:hover {
 }
 .card {
   background-color: white;
-  border: 1px solid #333;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   padding: 0.5rem;
   max-width: 300px;
   margin: 0 auto;
   animation: fade 250ms ease-in-out forwards;
+  box-shadow: 2px 9px 50px -10px rgba(0, 0, 0, 0.73);
 }
 
 .form-group {
