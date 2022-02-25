@@ -313,11 +313,13 @@ hr {
 .topnav {
     background-color: #DFEAFF;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .menu{
-    width: 100%;
     display: flex;
     justify-content:center;
 }
@@ -345,3 +347,16 @@ hr {
      width: 40px;
      margin-left: 10px;
  }
+
+ .fif {
+   width: 100%;
+ }
+
+ .imglol {
+   display: none;
+ }
+
+ .imgrl {
+  display: none;
+}
+

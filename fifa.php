@@ -10,6 +10,7 @@
 </head>
 <body>
     <?php include("assets/includes/navbar.php") ?>
+    <?php include("assets/includes/image.php") ?>
     <?php include("assets/includes/formulaire.php") ?>
     <?php include("assets/includes/listeparticipant.php") ?>
     <?php include("assets/includes/footer.php") ?>

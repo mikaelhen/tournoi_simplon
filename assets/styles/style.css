@@ -36,25 +36,22 @@ body {
 }
 a.prev,a.next {
     position:absolute;
-    top: 16rem;
-    opacity:0.6;
+    top: 14.5rem;
+    opacity:1;
     cursor:pointer;
     -webkit-transition:opacity 200ms ease-out;
     transition: opacity 200ms ease-out;
     text-decoration: none;
-    color: white;
-}
-a.prev:hover,a.next:hover {
-    opacity:1;
     color: #DCCA87;
 }
+
 .prev {
     left:10px;
-    font-size: 250%;
+    font-size: 450%;
 }
 .next {
     right:10px;
-    font-size: 250%;
+    font-size: 450%;
 }
 .slider {
     margin: auto;
@@ -119,11 +116,13 @@ img {
 .topnav {
     background-color: #333;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .menu{
-    width: 100%;
     display: flex;
     justify-content:center;
 }

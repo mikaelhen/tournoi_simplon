@@ -316,11 +316,13 @@ hr {
 .topnav {
     background-color: #2D9BF0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .menu{
-    width: 100%;
     display: flex;
     justify-content:center;
 }
@@ -350,4 +352,14 @@ hr {
     margin-left: 10px;
  }
 
+ .r {
+  width: 100%;
+}
 
+.imglol {
+  display: none;
+}
+
+.imgfifa {
+ display: none;
+}
