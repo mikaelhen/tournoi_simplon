@@ -5,12 +5,16 @@
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #DFEAFF;
-    overflow: hidden;
     display: flex;
     align-items: center;
 }
 
 /* Style the links inside the navigation bar */
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
 .topnav a {
   float: left;
   color: #000;
@@ -33,6 +37,5 @@
 .logo img {
      height: 40px;
      width: 40px;
-     margin-right: 600px;
-    margin-left: 20px;
+     margin-left: 10px;
  }
