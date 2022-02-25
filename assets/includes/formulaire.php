@@ -1,8 +1,10 @@
+
 <form action="#" data-multi-step class="multi-step-form">
     <div data-step class="card">
         <h3 class="step-title">Etape 1</h3>
+        <div class="separatorForm"></div>
         <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email" class="titleForm">Email</label>
             <input type="email" name="email" id="email" required>
         </div>
         <div class="form-group">
@@ -14,8 +16,9 @@
 
     <div data-step  class="card"> 
         <h3 class="step-title">Etape 2</h3>
+        <div class="separatorForm"></div>
             <div class="form-group">
-                <label for="address">Adresse</label>
+                <label for="address" class="titleForm">Adresse</label>
                 <input type="text" name="address" id="address" required>
             </div>
             <div class="form-group">
@@ -33,17 +36,18 @@
     </div>
     <div data-step  class="card">
         <h3 class="step-title">Etape 3</h3>
+        <div class="separatorForm"></div>
             <div class="form-group">
-                <label for="lastName">Nom</label>
+                <label for="lastName" class="titleForm">Nom</label>
                 <input type="text" name="lastName" id="lastName" required>
             </div>
             <div class="form-group">
                 <label for="firstName">Prenom</label>
                 <input type="text" name="firstName" id="firstName" required>
             </div>
-            <button type="button" data-previous>Précédent</button>
             <div class="sendButton">
-            <button type="Submit">Envoyer</button>
+                <button type="button" data-previous>Précédent</button>
+                <button type="Submit" class="buttonForm">Envoyer</button>
             </div>
             
         </div>

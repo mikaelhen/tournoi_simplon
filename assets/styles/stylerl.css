@@ -20,18 +20,20 @@ form button {
 }
 form button:hover {
   background-color: rgb(199, 199, 199);
-  transform: translateY(-5%);
+  color: rgb(36, 36, 36);
+  transform: translateY(-7%) scale(105%);
 }
 .card {
   background-color: white;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   padding: 0.5rem;
   max-width: 300px;
+  min-width: 200px;
   animation: fade 250ms ease-in-out forwards;
   background-color: rgb(228, 228, 228);
   position: absolute;
   top: 80px;
-  left: 31%;
+  left: 32%;
   right: 30%;
 }
 form {
@@ -81,7 +83,11 @@ form {
 .hide {
   display: none;
 }
-
+.sendButton {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 @keyframes slide {
   0% {
     transform: translateX(200%);
@@ -106,4 +112,16 @@ form {
     opacity: 0;
     transform: scale(0);
   }
+}
+.titleForm {
+  padding-top: 20px;
+}
+.separatorForm {
+  width: 80%;
+  background-color: rgb(102, 102, 102);
+  height: 1px;
+  filter: opacity(50%);
+  border-radius: 50%;
+  margin: auto;
+  border: 50px;
 }
