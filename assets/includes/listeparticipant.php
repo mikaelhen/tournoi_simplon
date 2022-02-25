@@ -1,7 +1,8 @@
 <div class="participant">
     <div class="liste">
         <div class="nom">
-            <h2>NOM</h2>
+            <h3>Nom</h3>
+            <div class="separator"></div>
             <p>Carpenter</p>
             <p>Scoot</p>
             <p>Valentine</p>
@@ -13,7 +14,8 @@
         </div>
 
         <div class="prenom">
-            <h2>Prenom</h2>
+            <h3>Prénom</h3>
+            <div class="separator"></div>
             <p>John</p>
             <p>Travis</p>
             <p>Jill</p>
@@ -25,8 +27,43 @@
         </div>
 
         <div class="date">
-            <h2>date d'inscription</h2>
+            <h3>Date d'inscription</h3>
+            <div class="separator"></div>
             <p>25/01/2022</p>
+            <p>28/01/2022</p>
+            <p>02/02/2022</p>
+            <p>04/02/2022</p>
+            <p>27/01/2022</p>
+            <p>15/02/2022</p>
+            <p>12/02/2022</p>
+            <p>29/01/2022</p>
+        </div>
+
+        <div class="participation">
+            <h3>Participation</h3>
+            <div class="separator"></div>
+            <p>4</p>
+            <p>7</p>
+            <p>8</p>
+            <p>3</p>
+            <p>6</p>
+            <p>9</p>
+            <p>12</p>
+            <p>7</p>
+        </div>
+
+        <div class="victoire">
+            <h3>Victoire</h3>
+            <div class="separator"></div>
+            <p>3</p>
+            <p>6</p>
+            <p>4</P>
+            <P>1</p>
+            <p>4</p>
+            <p>3</p>
+            <p>6</p>
+            <p>4</p>
+
         </div>
 
     </div>
