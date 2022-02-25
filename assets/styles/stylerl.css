@@ -27,14 +27,12 @@ form button:hover {
   background-color: white;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  max-width: 300px;
-  min-width: 200px;
+  min-width: 50%;
   animation: fade 250ms ease-in-out forwards;
   background-color: rgb(228, 228, 228);
   position: absolute;
-  top: 80px;
-  left: 32%;
-  right: 30%;
+  top: 25%;
+  left: 25%;
 }
 form {
   background-color: rgb(255, 255, 255);
