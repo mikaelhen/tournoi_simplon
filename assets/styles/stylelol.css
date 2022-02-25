@@ -30,7 +30,6 @@ body {
     margin: 15px 0 15px 0;
     border: 1px black solid;
     background-color: white;
-    border-radius: 5px 0 0 5px;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -71,7 +70,6 @@ body {
     margin: 15px 0 15px 0;
     border: 1px black solid;
     background-color: white;
-    border-radius: 0 5px 5px 0;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -105,10 +103,42 @@ hr {
     margin: 15px 0 15px 0;
     border: 1px black solid;
     background-color: white;
-    border-radius: 5px 0 0 5px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:center;
 
 }
+.classement {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:#1B3549;
+    height: 58rem;
+}
+
+
+.ac {
+    display: none;
+}
+
+.fifaa {
+    display: none;
+}
+
+.rla {
+    display: none;
+}
+
+.lola{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    margin: 15px;
+    padding: 15px 30px 15px 30px;
+    font-size:150%;
+    border-radius:10px;
+
+}
+

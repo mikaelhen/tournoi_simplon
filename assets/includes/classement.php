@@ -1,4 +1,4 @@
-<div class="participant">
+<div class="classement">
     <div class="liste">
         <div class="top">
             <h3>Top</h3>
@@ -13,7 +13,7 @@
             <p>#8</p>
 
         </div>
-        
+
         <div class="nom">
             <h3>Nom</h3>
             <div class="separator"></div>
@@ -79,6 +79,13 @@
             <p>4</p>
 
         </div>
-
     </div>
+
+    <a href="index.php" class="ac">Accueil</a>
+
+    <a href="fifa.php" class="fifaa">FIFA</a>
+
+    <a href="lol.php" class="lola">LOL</a>
+
+    <a href="rocketleague.php" class="rla">RL</a>
 </div>
