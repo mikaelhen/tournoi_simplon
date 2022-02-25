@@ -14,4 +14,4 @@
     <?php include("assets/includes/listeparticipant.php") ?>
     <?php include("assets/includes/footer.php") ?>
 </body>
-</html>
+</htmlu
