@@ -29,28 +29,30 @@ body {
 }
 
 /* Caroussel */
-
+*{
+    transition:all 500msease-in-out
+}
 a.prev,a.next {
-    height:91px;
     position:absolute;
-    width:43px;
-    top: 15rem;
+    top: 16rem;
     opacity:0.6;
-    text-indent:-99999px;
     cursor:pointer;
     -webkit-transition:opacity 200ms ease-out;
     transition: opacity 200ms ease-out;
+    text-decoration: none;
+    color: white;
 }
 a.prev:hover,a.next:hover {
     opacity:1;
+    color: #DCCA87;
 }
 .prev {
-    left:0;
-    background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+    left:10px;
+    font-size: 250%;
 }
 .next {
-    right:0;
-    background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+    right:10px;
+    font-size: 250%;
 }
 .slider {
     margin: auto;
@@ -65,20 +67,18 @@ a.prev:hover,a.next:hover {
     position:absolute;
     height:100%;
     width:100%;
+    opacity: 0;
+    transition: 500ms ease-in-out;
 }
 .slider .slide:target {
     z-index: 100;
+    opacity : 1 ;
 }
 img {
     width:100%;
     left:0;
+    transition: 500ms ease;
 }
-
-
-
-
-
-
 
 /* Descriptif */
 
@@ -102,24 +102,15 @@ img {
 }
 
 .bouton_classement {
+    text-decoration: none;
     background-color: white;
     color: black;
     margin: 20px;
+    padding: 20px;
     border-radius: 5px;
     transition: 1000ms ease;
 }
 
 .bouton_classement:hover {
-    background-color: lightgray;
-}
-
-.bouton_classement a {
-    text-decoration: none;
-    color: black;
-    font-size: 150%;
-}
-
-
-.bouton_classement a p {
-    margin: 15px;
+    background-color: gray;
 }

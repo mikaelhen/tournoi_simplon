@@ -12,7 +12,7 @@
         <p>Il faut cliquer sur l'image d'un jeu pour accéder à sa page ;D</p>
     </div>
 
-    <div class="bouton_classement">
-        <a href="classementgeneral.php"><p>Classement Général</p></a>
-    </div>
+    <a href="classementgeneral.php" class="bouton_classement">
+            <p>Classement Général</p>
+    </a>
 </div>
