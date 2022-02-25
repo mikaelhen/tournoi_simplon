@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/* Add a black background color to the top navigation */
+
 .topnav {
     background-color: #DFEAFF;
     display: flex;
     align-items: center;
 }
 
-/* Style the links inside the navigation bar */
 .menu{
     width: 100%;
     display: flex;
