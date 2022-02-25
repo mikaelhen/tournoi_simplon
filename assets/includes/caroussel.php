@@ -1,13 +1,21 @@
-<div id="slider">
-    <a href="#jeux" class="control_next"><i class="fa-solid fa-circle-arrow-right"></i></a>
-    <a href="#jeux" class="control_prev"><i class="fa-solid fa-circle-arrow-left"></i></a>
+    <div class="slider">
+        <ul>
+            <li id="no-js-slider-1" class="slide">
+                <a href="rocketleague.php"><img src="assets/img/RLr.jpg"></a>
+                <a class="prev" href="#no-js-slider-3">prev</a>
+                <a class="next" href="#no-js-slider-2">next</a>
+            </li>
 
-    <ul>
-        <li><a href="rocketleague.php"><img src="assets/img/RLr.jpg" alt=""></a></li>
-        <li><a href="lol.php"><img src="assets/img/lolr.jpg" alt=""></a></li>
-        <li><a href="fifa.php"><img src="assets/img/fifar.jpg" alt=""></a></li>
-    </ul>  
-</div>
+            <li id="no-js-slider-2" class="slide">
+                <a href="lol.php"><img src="assets/img/lolr.jpg"></a>
+                <a class="prev" href="#no-js-slider-1">prev</a>
+                <a class="next" href="#no-js-slider-3">next</a>           
+            </li>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="assets/js/caroussel.js"></script>
+            <li id="no-js-slider-3" class="slide">
+                <a href="fifa.php"><img src="assets/img/fifar.jpg"></a>
+                <a class="prev" href="#no-js-slider-2">prev</a>
+                <a class="next" href="#no-js-slider-1">next</a>           
+            </li>
+        </ul>
+    </div>

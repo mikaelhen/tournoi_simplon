@@ -30,71 +30,55 @@ body {
 
 /* Caroussel */
 
-#slider {
+a.prev,a.next {
+    height:91px;
+    position:absolute;
+    width:43px;
+    top: 15rem;
+    opacity:0.6;
+    text-indent:-99999px;
+    cursor:pointer;
+    -webkit-transition:opacity 200ms ease-out;
+    transition: opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+    opacity:1;
+}
+.prev {
+    left:0;
+    background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+}
+.next {
+    right:0;
+    background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+}
+.slider {
+    margin: auto;
+    height:100vh;
     position: relative;
-    overflow: hidden;
-    margin: 100px auto 50px auto;
-    border-radius: 4px;
-  }
-  
-  #slider ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  #slider ul li {
-    position: relative;
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: 60rem;
-    height: 30rem;
-    text-align: center;
-  }
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+.slide {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+.slider .slide:target {
+    z-index: 100;
+}
+img {
+    width:100%;
+    left:0;
+}
 
-  img {
-      width: 100%;
-  }
-  
-  a.control_prev, a.control_next {
-    position: absolute;
-    top: 50%;
-    z-index: 999;
-    display: block;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: auto;
-    height: auto;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    opacity: 0.6;
-    cursor: pointer;
-  }
-  
-  a.control_prev:hover, a.control_next:hover {
-    opacity: 1;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-    color: #DCCA87;
-  }
-  
-  a.control_prev {
-    border-radius: 0 2px 2px 0;
-  }
-  
-  a.control_next {
-    right: 0;
-    border-radius: 2px 0 0 2px;
-  }
 
-  i {
-      font-size: 200%;
-  }
+
+
+
+
 
 /* Descriptif */
 
