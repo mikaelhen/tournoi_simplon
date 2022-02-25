@@ -26,13 +26,13 @@ form button:hover {
 .card {
   background-color: white;
   border-radius: 0.5rem;
-  padding: 0.5rem;
-  min-width: 50%;
+  padding: 1rem;
+  min-width: 25%;
   animation: fade 250ms ease-in-out forwards;
   background-color: rgb(228, 228, 228);
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: 36%;
 }
 form {
   background-color: rgb(255, 255, 255);
@@ -122,4 +122,56 @@ form {
   border-radius: 50%;
   margin: auto;
   border: 50px;
+}
+/* Bouttons classement */
+.bouton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonClassement {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  font-weight: bolder;
+  font-size: 1.7em;
+  padding: 5px;
+  content: "Placeholder";
+  transition: 250ms ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.buttonClassement:hover {
+  color: white;
+  background-color: rgb(104, 103, 103);
+}
+.buttonClassement.rocketleagueB {
+  background-color: #2d9bf0;
+  color: white;
+}
+.buttonClassement.rocketleagueB:hover {
+  background-color: #227dc4;
+  color: white;
+}
+.buttonClassement.lolB {
+  display: none;
+  background-color: #1b3549;
+  color: white;
+}
+.buttonClassement.lolB:hover {
+  display: none;
+  background-color: #2a506d;
+  color: white;
+}
+
+.buttonClassement.fifaB {
+  display: none;
+  background-color: #dfeaff;
+  color: rgb(0, 0, 0);
+}
+.buttonClassement.fifaB:hover {
+  display: none;
+  background-color: #b1c0db;
+  color: rgb(0, 0, 0);
 }

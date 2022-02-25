@@ -54,3 +54,14 @@
         
     </div>
 </form>
+<div class="bouton">
+    <button onclick="window.location.href='classementrocketleague.php';" class="buttonClassement rocketleagueB">
+        Classement
+    </button>
+    <button onclick="window.location.href='classementlol.php';" class="buttonClassement lolB">
+        Classement
+    </button>
+    <button onclick="window.location.href='classementfifa.php';" class="buttonClassement fifaB">
+        Classement
+    </button>
+</div>
