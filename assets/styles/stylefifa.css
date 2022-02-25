@@ -4,9 +4,9 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #DFEAFF;
-  overflow: hidden;
-   display: flex;
+    background-color: #DFEAFF;
+    overflow: hidden;
+    display: flex;
     align-items: center;
 }
 
