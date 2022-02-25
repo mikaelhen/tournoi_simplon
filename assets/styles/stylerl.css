@@ -11,25 +11,34 @@
 body {
   font-family: robotoR;
 }
-button {
+form button {
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   padding: 5px;
   background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
-button:hover {
+form button:hover {
   background-color: rgb(199, 199, 199);
+  transform: translateY(-5%);
 }
 .card {
   background-color: white;
   border-radius: 0.2rem;
   padding: 0.5rem;
   max-width: 300px;
-  margin: 0 auto;
   animation: fade 250ms ease-in-out forwards;
-  box-shadow: 2px 9px 50px -10px rgba(0, 0, 0, 0.73);
+  background-color: rgb(228, 228, 228);
+  position: absolute;
+  top: 80px;
+  left: 31%;
+  right: 30%;
 }
-
+form {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 400px;
+}
 .form-group {
   display: flex;
   flex-direction: column;
