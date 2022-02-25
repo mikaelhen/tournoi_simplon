@@ -1,6 +1,147 @@
-* {
-    margin: 0;
-    padding: 0;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* { margin : 0; padding:0;}
+
+body { 
+    font-family: 'Roboto';
+}
+
+
+.participant {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:#BFD5FF;
+}
+
+.liste {
+    display: flex;
+    justify-content:center;
+    width: 70%;
+    margin: 50px;
+
+
+}
+
+.nom {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.prenom {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.date {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.participation {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.victoire {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.liste p{
+    text-align: center;
+    font-size: 150%;
+    padding: 15px;
+}
+
+h3{
+    font-size:200%;
+    margin: 10px;
+    align-self: center;
+}
+
+hr {
+    height: 3px;
+    background-color:black;
+}
+
+.separator {
+    height: 3px;
+    width:100%;
+    background-color:black;
+}
+
+.top {
+    margin: 15px 0 15px 0;
+    border: 1px black solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.classement {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color:#BFD5FF;
+    height: 58rem;
+}
+
+.ac {
+    display: none;
+}
+
+.lola {
+    display: none;
+}
+
+.rla {
+    display: none;
+}
+
+.fifaa {
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    margin: 15px;
+    padding: 15px 30px 15px 30px;
+    font-size:150%;
+    border-radius:10px;
+
 }
 
 
